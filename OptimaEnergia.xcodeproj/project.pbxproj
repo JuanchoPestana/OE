@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83238639173B0F9A006E4E15 /* 72x72_OEapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 83238638173B0F9A006E4E15 /* 72x72_OEapp.png */; };
+		8323863B173B0F9E006E4E15 /* 144x144_OEapp.png in Resources */ = {isa = PBXBuildFile; fileRef = 8323863A173B0F9E006E4E15 /* 144x144_OEapp.png */; };
+		83DEA23D170CD44300A0BD8D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA23C170CD44300A0BD8D /* UIKit.framework */; };
+		83DEA23F170CD44300A0BD8D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA23E170CD44300A0BD8D /* Foundation.framework */; };
+		83DEA241170CD44300A0BD8D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA240170CD44300A0BD8D /* CoreGraphics.framework */; };
+		83DEA247170CD44300A0BD8D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA245170CD44300A0BD8D /* InfoPlist.strings */; };
+		83DEA249170CD44300A0BD8D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEA248170CD44300A0BD8D /* main.m */; };
+		83DEA24D170CD44300A0BD8D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEA24C170CD44300A0BD8D /* AppDelegate.m */; };
+		83DEA24F170CD44300A0BD8D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA24E170CD44300A0BD8D /* Default.png */; };
+		83DEA251170CD44300A0BD8D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA250170CD44300A0BD8D /* Default@2x.png */; };
+		83DEA253170CD44300A0BD8D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA252170CD44300A0BD8D /* Default-568h@2x.png */; };
+		83DEA256170CD44300A0BD8D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA254170CD44300A0BD8D /* MainStoryboard.storyboard */; };
+		83DEA259170CD44300A0BD8D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEA258170CD44300A0BD8D /* MainViewController.m */; };
+		83DEA263170CD45700A0BD8D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA262170CD45700A0BD8D /* MobileCoreServices.framework */; };
+		83DEA265170CD45C00A0BD8D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA264170CD45C00A0BD8D /* MessageUI.framework */; };
+		83DEA267170CD46300A0BD8D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA266170CD46300A0BD8D /* AudioToolbox.framework */; };
+		83DEA269170CD46900A0BD8D /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA268170CD46900A0BD8D /* MapKit.framework */; };
+		83DEA26B170CD47100A0BD8D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA26A170CD47100A0BD8D /* CoreLocation.framework */; };
+		83DEA26D170CD48100A0BD8D /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83DEA26C170CD48100A0BD8D /* libsqlite3.0.dylib */; };
+		83DEA270170CD49400A0BD8D /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 83DEA26F170CD49400A0BD8D /* Location.m */; };
+		83DEA272170CD5BE00A0BD8D /* OEFINAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA271170CD5BE00A0BD8D /* OEFINAL.png */; };
+		83DEA274170CDE6000A0BD8D /* swish.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 83DEA273170CDE6000A0BD8D /* swish.m4a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83238638173B0F9A006E4E15 /* 72x72_OEapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 72x72_OEapp.png; sourceTree = "<group>"; };
+		8323863A173B0F9E006E4E15 /* 144x144_OEapp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 144x144_OEapp.png; sourceTree = "<group>"; };
+		83D2A865170F4D5800FAE986 /* Oe iPad_72x72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Oe iPad_72x72.png"; path = "../Oe iPad_72x72.png"; sourceTree = "<group>"; };
+		83D2A867170F4D6500FAE986 /* Oe iPad_72x72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Oe iPad_72x72@2x.png"; path = "../Oe iPad_72x72@2x.png"; sourceTree = "<group>"; };
+		83DEA239170CD44300A0BD8D /* OptimaEnergia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptimaEnergia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83DEA23C170CD44300A0BD8D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		83DEA23E170CD44300A0BD8D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		83DEA240170CD44300A0BD8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		83DEA244170CD44300A0BD8D /* OptimaEnergia-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OptimaEnergia-Info.plist"; sourceTree = "<group>"; };
+		83DEA246170CD44300A0BD8D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		83DEA248170CD44300A0BD8D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83DEA24A170CD44300A0BD8D /* OptimaEnergia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OptimaEnergia-Prefix.pch"; sourceTree = "<group>"; };
+		83DEA24B170CD44300A0BD8D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83DEA24C170CD44300A0BD8D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83DEA24E170CD44300A0BD8D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		83DEA250170CD44300A0BD8D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		83DEA252170CD44300A0BD8D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83DEA255170CD44300A0BD8D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		83DEA257170CD44300A0BD8D /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		83DEA258170CD44300A0BD8D /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		83DEA262170CD45700A0BD8D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		83DEA264170CD45C00A0BD8D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		83DEA266170CD46300A0BD8D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		83DEA268170CD46900A0BD8D /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		83DEA26A170CD47100A0BD8D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		83DEA26C170CD48100A0BD8D /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		83DEA26E170CD49400A0BD8D /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Location.h; path = ../Location.h; sourceTree = "<group>"; };
+		83DEA26F170CD49400A0BD8D /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Location.m; path = ../Location.m; sourceTree = "<group>"; };
+		83DEA271170CD5BE00A0BD8D /* OEFINAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OEFINAL.png; sourceTree = "<group>"; };
+		83DEA273170CDE6000A0BD8D /* swish.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = swish.m4a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83DEA236170CD44300A0BD8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DEA26D170CD48100A0BD8D /* libsqlite3.0.dylib in Frameworks */,
+				83DEA26B170CD47100A0BD8D /* CoreLocation.framework in Frameworks */,
+				83DEA269170CD46900A0BD8D /* MapKit.framework in Frameworks */,
+				83DEA267170CD46300A0BD8D /* AudioToolbox.framework in Frameworks */,
+				83DEA265170CD45C00A0BD8D /* MessageUI.framework in Frameworks */,
+				83DEA263170CD45700A0BD8D /* MobileCoreServices.framework in Frameworks */,
+				83DEA23D170CD44300A0BD8D /* UIKit.framework in Frameworks */,
+				83DEA23F170CD44300A0BD8D /* Foundation.framework in Frameworks */,
+				83DEA241170CD44300A0BD8D /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83DEA230170CD44300A0BD8D = {
+			isa = PBXGroup;
+			children = (
+				8323863A173B0F9E006E4E15 /* 144x144_OEapp.png */,
+				83238638173B0F9A006E4E15 /* 72x72_OEapp.png */,
+				83DEA242170CD44300A0BD8D /* OptimaEnergia */,
+				83DEA23B170CD44300A0BD8D /* Frameworks */,
+				83DEA23A170CD44300A0BD8D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83DEA23A170CD44300A0BD8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83DEA239170CD44300A0BD8D /* OptimaEnergia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83DEA23B170CD44300A0BD8D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83DEA26C170CD48100A0BD8D /* libsqlite3.0.dylib */,
+				83DEA26A170CD47100A0BD8D /* CoreLocation.framework */,
+				83DEA268170CD46900A0BD8D /* MapKit.framework */,
+				83DEA266170CD46300A0BD8D /* AudioToolbox.framework */,
+				83DEA264170CD45C00A0BD8D /* MessageUI.framework */,
+				83DEA262170CD45700A0BD8D /* MobileCoreServices.framework */,
+				83DEA23C170CD44300A0BD8D /* UIKit.framework */,
+				83DEA23E170CD44300A0BD8D /* Foundation.framework */,
+				83DEA240170CD44300A0BD8D /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83DEA242170CD44300A0BD8D /* OptimaEnergia */ = {
+			isa = PBXGroup;
+			children = (
+				83DEA24B170CD44300A0BD8D /* AppDelegate.h */,
+				83DEA24C170CD44300A0BD8D /* AppDelegate.m */,
+				83DEA26E170CD49400A0BD8D /* Location.h */,
+				83DEA26F170CD49400A0BD8D /* Location.m */,
+				83DEA257170CD44300A0BD8D /* MainViewController.h */,
+				83DEA258170CD44300A0BD8D /* MainViewController.m */,
+				83DEA254170CD44300A0BD8D /* MainStoryboard.storyboard */,
+				83DEA243170CD44300A0BD8D /* Supporting Files */,
+			);
+			path = OptimaEnergia;
+			sourceTree = "<group>";
+		};
+		83DEA243170CD44300A0BD8D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83DEA273170CDE6000A0BD8D /* swish.m4a */,
+				83DEA271170CD5BE00A0BD8D /* OEFINAL.png */,
+				83D2A867170F4D6500FAE986 /* Oe iPad_72x72@2x.png */,
+				83D2A865170F4D5800FAE986 /* Oe iPad_72x72.png */,
+				83DEA244170CD44300A0BD8D /* OptimaEnergia-Info.plist */,
+				83DEA245170CD44300A0BD8D /* InfoPlist.strings */,
+				83DEA248170CD44300A0BD8D /* main.m */,
+				83DEA24A170CD44300A0BD8D /* OptimaEnergia-Prefix.pch */,
+				83DEA24E170CD44300A0BD8D /* Default.png */,
+				83DEA250170CD44300A0BD8D /* Default@2x.png */,
+				83DEA252170CD44300A0BD8D /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83DEA238170CD44300A0BD8D /* OptimaEnergia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83DEA25F170CD44300A0BD8D /* Build configuration list for PBXNativeTarget "OptimaEnergia" */;
+			buildPhases = (
+				83DEA235170CD44300A0BD8D /* Sources */,
+				83DEA236170CD44300A0BD8D /* Frameworks */,
+				83DEA237170CD44300A0BD8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptimaEnergia;
+			productName = OptimaEnergia;
+			productReference = 83DEA239170CD44300A0BD8D /* OptimaEnergia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83DEA231170CD44300A0BD8D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Juan Pestana";
+			};
+			buildConfigurationList = 83DEA234170CD44300A0BD8D /* Build configuration list for PBXProject "OptimaEnergia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 83DEA230170CD44300A0BD8D;
+			productRefGroup = 83DEA23A170CD44300A0BD8D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83DEA238170CD44300A0BD8D /* OptimaEnergia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83DEA237170CD44300A0BD8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DEA247170CD44300A0BD8D /* InfoPlist.strings in Resources */,
+				83DEA24F170CD44300A0BD8D /* Default.png in Resources */,
+				83DEA251170CD44300A0BD8D /* Default@2x.png in Resources */,
+				83DEA253170CD44300A0BD8D /* Default-568h@2x.png in Resources */,
+				83DEA256170CD44300A0BD8D /* MainStoryboard.storyboard in Resources */,
+				83DEA272170CD5BE00A0BD8D /* OEFINAL.png in Resources */,
+				83DEA274170CDE6000A0BD8D /* swish.m4a in Resources */,
+				83238639173B0F9A006E4E15 /* 72x72_OEapp.png in Resources */,
+				8323863B173B0F9E006E4E15 /* 144x144_OEapp.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83DEA235170CD44300A0BD8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83DEA249170CD44300A0BD8D /* main.m in Sources */,
+				83DEA24D170CD44300A0BD8D /* AppDelegate.m in Sources */,
+				83DEA259170CD44300A0BD8D /* MainViewController.m in Sources */,
+				83DEA270170CD49400A0BD8D /* Location.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		83DEA245170CD44300A0BD8D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEA246170CD44300A0BD8D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		83DEA254170CD44300A0BD8D /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83DEA255170CD44300A0BD8D /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83DEA25D170CD44300A0BD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		83DEA25E170CD44300A0BD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83DEA260170CD44300A0BD8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimaEnergia/OptimaEnergia-Prefix.pch";
+				INFOPLIST_FILE = "OptimaEnergia/OptimaEnergia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		83DEA261170CD44300A0BD8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OptimaEnergia/OptimaEnergia-Prefix.pch";
+				INFOPLIST_FILE = "OptimaEnergia/OptimaEnergia-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83DEA234170CD44300A0BD8D /* Build configuration list for PBXProject "OptimaEnergia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DEA25D170CD44300A0BD8D /* Debug */,
+				83DEA25E170CD44300A0BD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83DEA25F170CD44300A0BD8D /* Build configuration list for PBXNativeTarget "OptimaEnergia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83DEA260170CD44300A0BD8D /* Debug */,
+				83DEA261170CD44300A0BD8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83DEA231170CD44300A0BD8D /* Project object */;
+}
